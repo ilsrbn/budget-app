@@ -1,0 +1,17 @@
+@import "../remix-font/remixicon.css";
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #3e3e3e;
+    --white: #fefefe;
+    --grid-size: calc((100vw - 72px - 12px) / 4 );
+}
+body {
+    background: var(--white);
+}
